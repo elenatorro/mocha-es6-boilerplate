@@ -74,7 +74,7 @@ gulp.task(WATCH_TASK, WATCH_TASKS, () => {
   gulp.watch(WATCH_FILES, WATCH_TASKS);
 });
 
-gulp.task(CONNECT_TASK, function() {
+gulp.task(CONNECT_TASK, () => {
   connect.server();
 });
 
